@@ -62,34 +62,3 @@ CODSOFT_TASK4/
 └── .gitignore
 ```
 
-## GitHub publishing
-
-Follow the repository naming instructions from your internship coordinator. If one repository is intended for all tasks, place this project in a `Task4/` subfolder.
-
-```bash
-git init
-git add .
-git commit -m "Complete CodSoft Task 4: Movie Recommendation System"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/CODSOFT_TASKSNO.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and the repository name with your actual details.
-
-## Suggested demo video (60–90 seconds)
-
-1. Introduce the project as CodSoft AI Internship Task 4.
-2. Show `movies.csv` and explain the metadata.
-3. Recommend similar movies to `The Martian`.
-4. Try preference-based recommendations using `mystery detective` or `comedy family`.
-5. Briefly explain content-based filtering and cosine similarity.
-6. Run `python -m unittest -v` and show your actual GitHub link.
-
-## Suggested LinkedIn caption
-
-> Completed Task 4 of my CodSoft Artificial Intelligence internship: a content-based Movie Recommendation System built with Python. It uses movie genres and descriptions to create TF-IDF-style vectors and cosine similarity scores, then recommends movies matching a title or text preferences. The project includes a sample dataset, interactive CLI, and unit tests.
->
-> GitHub: [add your real repository link]
->
-> @CODSOFT #codsoft #artificialintelligence #python #recommendationsystem #internship
